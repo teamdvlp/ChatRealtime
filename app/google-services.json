@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "375600438134",
+    "firebase_url": "https://appchat-7501b.firebaseio.com",
+    "project_id": "appchat-7501b",
+    "storage_bucket": "appchat-7501b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375600438134:android:20183420d79fcd1d",
+        "android_client_info": {
+          "package_name": "com.example.tiend.chatrealtime"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375600438134-5t1u27gb2qu5deib2ev9t3j553onmg0j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWjfov9lE-tecB42ai0MIuzrDw-1NJJn0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,7 +1,9 @@
-package com.example.tiend.chatrealtime;
+package com.example.tiend.chatrealtime.view.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.example.tiend.chatrealtime.R;
 
 public class MainActivity extends AppCompatActivity {
 
