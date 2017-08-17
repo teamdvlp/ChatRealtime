@@ -4,11 +4,16 @@ package com.example.tiend.chatrealtime.model;
  * Created by tiend on 8/17/2017.
  */
 
+
+
+
 public class Message {
-    private String content;
-    private double time;
-    private String sender;
-    private String receiver;
+
+    public String content;
+    public double time;
+    public String sender;
+    public String receiver;
+
 
     public Message () {
 
