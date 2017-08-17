@@ -9,7 +9,9 @@ public interface presenterLoginInterface {
     void LoginFailed ();
     void LoginSuccess ();
     void setOnLoginResult (loginResult onLoginResult);
+
     interface loginResult {
-        void onLoginResult();
+        void onLoginFailed();
+        void onLoginSuccess();
     }
 }

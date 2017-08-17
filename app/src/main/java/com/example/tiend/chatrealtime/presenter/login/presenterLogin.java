@@ -1,9 +1,5 @@
 package com.example.tiend.chatrealtime.presenter.login;
 
-/**
- * Created by tiend on 8/17/2017.
- */
-
 public class presenterLogin implements presenterLoginInterface {
 
     private loginResult loginResult;
