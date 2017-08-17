@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.KeyEvent;
+import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.TextView;
 
@@ -39,8 +40,8 @@ public class ChatActivity extends AppCompatActivity {
         rcv_chatWindow = (RecyclerView) findViewById(R.id.rcv_chatWindow);
         chatViewAdapter = new ChatViewAdapter(getApplicationContext(),listMessage,user);
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this,LinearLayoutManager.VERTICAL,false);
-
         rcv_chatWindow.setLayoutManager(linearLayoutManager);
+
         rcv_chatWindow.setAdapter(chatViewAdapter);
         edt_inputField = (EditText) findViewById(R.id.edt_inputField);
     }
